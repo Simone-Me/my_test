@@ -1,1 +1,53 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="project.js"></script>
+    <link rel="stylesheet" href="project.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet">
+    <video id="background-video" autoplay loop poster="/Clouds/clouds_HP.jpg">
+        <source src="/Clouds/Harry Potter title without title (clouds).mp4" type="video/mp4">
+        </video>
+</head>
+<body>
+    <h1>Actor of the day</h1>
+    <div class="form">
+        <label for="choose">Choose a character</label> <br>
+        <input list="list-people" type="text" name="choose" class="form-control" id="input" placeholder="Write here"/>
+        <datalist id="list-people">
+            <option value="Harry Potter">
+            <option value="Hermione Granger">
+            <option value="Ron Weasley">
+            <option value="Draco Malfoy">
+            <option value="Minerva McGonagall">
+            <option value="Cedric Diggory">
+            <option value="Cho Chang">
+            <option value="Severus Snape">
+            <option value="Rubeus Hagrid">
+            <option value="Neville Longbottom">
+            <option value="Luna Lovegood">
+            <option value="Ginny Weasley">
+            <option value="Sirius Black">
+            <option value="Remus Lupin">
+            <option value="Arthur Weasley">
+            <option value="Bellatrix Lestrange">
+            <option value="Lord Voldemort">
+            <option value="Horace Slughorn">
+            <option value="Kingsley Shacklebolt">
+            <option value="Dolores Umbridge">
+            <option value="Lucius Malfoy">
+            <option value="Vincent Crabbe">
+            <option value="Gregory Goyle">
+            <option value="Mrs Norris">
+            <option value="Argus Filch">
+        </datalist>
+        <button id="myBtn">Try it</button>
+    </div>
+    <section id="character"></section>
+</body>
+</html>
