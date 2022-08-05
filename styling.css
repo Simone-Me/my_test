@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'harry_pregular';
+    src: url('/font/webfontkit-20220728-131849/harryp__-webfont.woff2') format('woff2'),
+         url('/font/webfontkit-20220728-131849/harryp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Trajan_cinema';
+    src: url('/font/TrajanPro/TrajanPro-Regular.ttf');
+}
+body {
+    background-color: darkgrey;
+}
+
+h1,
+label,
+.form {
+    text-align: center;
+    font-family: 'harry_pregular';
+}
+
+h1 {
+    font-size: 70px;
+    position:relative;
+    top: 100px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    font-size: 40px;
+    position:relative;
+    top: 110px;
+}
+
+section 
+{
+    text-align: center;
+    font-family: 'Trajan_cinema';
+    font-size: 20px;
+}
+
+div.form {
+    position:relative;
+    top: 150px;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  @media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("/Clouds/clouds_HP.jpg") no-repeat;
+      background-size: cover;
+    }
+}
