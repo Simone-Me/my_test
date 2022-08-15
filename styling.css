@@ -1,11 +1,12 @@
 @font-face {
     font-family: 'harry_pregular';
-    src: url('/font/webfontkit-20220728-131849/harryp__-webfont.woff2') format('woff2'),
-         url('/font/webfontkit-20220728-131849/harryp__-webfont.woff') format('woff');
+    src: url('./assets/harryp__-webfont.woff2') format('woff2'),
+    url('./assets/harryp__-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
 
 @font-face {
     font-family: 'Trajan_cinema';
